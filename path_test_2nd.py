@@ -22,3 +22,5 @@ def fusion(path_in, path_in_2):
 
 fus_path = fusion(dir_path, bas_path)
 print(fus_path)
+
+os.system('pause')
