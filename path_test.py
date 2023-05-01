@@ -15,5 +15,3 @@ def path_function(direct_path):
     file_path.append(direct_path)
     file_path = "".join(file_path)
     return(file_path)
-
-# print(path_function("/path_test.py"))
