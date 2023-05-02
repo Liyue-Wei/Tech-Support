@@ -1,7 +1,7 @@
 import time
 
 start = time.time()
-i = 2**10
+i = 2**16
 t = 1
 
 for n in range(1, int(i)):
