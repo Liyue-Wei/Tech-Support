@@ -19,4 +19,5 @@ def send(master, slave, title, content, smtp, tcp, password):
 1. Gmail的SMTP伺服器為 smtp.gmail.com
 2. Gmail的TCP埠為 465
 3. 以Gmail進行郵件發送，須先取得應用程式密碼
+4. master為寄件人email地址，slave為收件人email地址
 '''
