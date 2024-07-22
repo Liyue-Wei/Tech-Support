@@ -3,7 +3,7 @@ import email.message
 import time
 
 msg = email.message.EmailMessage()
-def send(master, slave, title, content, smtp, tcp, password):
+def main(master, slave, title, content, smtp, tcp, password):
     msg["From"] = master
     msg["To"] = slave
     msg["Subject"] = title
@@ -14,6 +14,9 @@ def send(master, slave, title, content, smtp, tcp, password):
     server.login(master, password)
     server.send_message(msg)
     server.close()
+
+if __name__ == "__main__":
+    main()
 
 '''
 1. Gmail的SMTP伺服器為 smtp.gmail.com
