@@ -1,12 +1,12 @@
 #include <typeinfo>
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
     int i;
     cin >> i;
-    cout << i  << endl << typeid(i).name() << endl;
+    cout << i  << " " << typeid(i).name() << '\n';
     double n = (double)i;
-    cout << n << endl << typeid(n).name() << endl;
+    cout << n << " " << typeid(n).name() << '\n';
 
     return 0;
     system("Pause");
